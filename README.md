@@ -1,1 +1,3 @@
-# speed-typing
+Speed typing game.
+
+REQUIREMENTS ։ pygame library.
