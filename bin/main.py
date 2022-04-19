@@ -21,7 +21,7 @@ class game:
         self.screen = pygame.display.set_mode((self.WIDTH, self.HEIGHT))
         pygame.display.set_caption("Typing test")
         self.clock = pygame.time.Clock()
-        self.playing_time = 5
+        self.playing_time = 30
 
         self.background = pygame.image.load('background.jpg')
         self.background = pygame.transform.scale(self.background, (self.WIDTH, self.HEIGHT))
@@ -53,6 +53,7 @@ class game:
 
     def GetText(self):
         self.line_number += 1
+        print(self.line_number)
         return self.lines[self.line_number]
 
     def showText(self):

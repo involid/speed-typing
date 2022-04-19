@@ -5,6 +5,9 @@
 Algorithm for playing:
 
     git clone https://github.com/involid/speed-typing.git
-    python3 speed-typing/bin/main.py
+    cd speed-typing
+    git checkout dev
+    cd bin
+    python3 main.py
 
 ---
